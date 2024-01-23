@@ -12,7 +12,7 @@ import { VaultFactoryService } from './vault-factory.service';
 const vaultConfig: IdentityVaultConfig = {
   key: 'io.ionic.enterprisestarterkeys',
   type: VaultType.SecureStorage,
-  deviceSecurityType: DeviceSecurityType.None,
+  deviceSecurityType: DeviceSecurityType.Biometrics,
   unlockVaultOnLoad: false,
 };
 
